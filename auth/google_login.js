@@ -55,5 +55,5 @@ app.get('/logout', (req, res) => {
     req.logout();
     res.redirect('/');
 })
-//app.listen(3000, () => console.log(`Example app listening on port ${3000}!`))
-module.export={app};
+app.listen(3000, () => console.log(`Example app listening on port ${3000}!`))
+//module.export={app};
